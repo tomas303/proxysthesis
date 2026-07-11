@@ -1,0 +1,25 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace / vendor
+vendor/
+go.work
+go.work.sum
+
+# Coverage
+*.cover
+coverage.txt
+coverage.out
+
+# Project build outputs
+/proxysthesis
+proxysthesis.tar
+
+# Local config (deployment-specific, may contain secrets)
+config.yaml
